@@ -1,0 +1,66 @@
+add_namespace = testevent
+
+country_event = {
+	id = testevent.1
+	title = testevent.1.t
+	desc = testevent.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = testevent.1.a
+		AFG = { country_event = testevent.2 }
+	}
+	option = {
+		name = testevent.1.b
+		AFG = { country_event = testevent.3 }
+	}
+	option = {
+		name = testevent.1.c
+		AFG = { news_event = testevent.4 }
+	}
+}
+
+country_event = {
+	id = testevent.2
+	title = testevent.2.t
+	desc = testevent.2.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = testevent.2.a
+		add_political_power = 500
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = testevent.3
+	title = testevent.3.t
+	desc = testevent.3.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = testevent.2.a
+		add_political_power = -500
+		add_stability = -1
+	}
+}
+
+news_event = {
+	id = testevent.4
+	title = testevent.4.t
+	desc = testevent.4.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = testevent.4.a
+	}
+}

@@ -1,0 +1,9 @@
+﻿l_english:
+  AFG_test:0 "fortnite"
+  AFG_test_1:0 "decision for variable checking n' stuffs"
+  AFG_test_2:0 "1 decision"
+  AFG_test_3:0 "2 decision"
+  AFG_test_4:0 "3 decision"
+  tooltip_1:0 "Increases the variable by 1"
+  tooltip_2:0 "Resets the variable to 0"
+  tooltip_3:0 "the variable number is currently [?test_var|G*]"

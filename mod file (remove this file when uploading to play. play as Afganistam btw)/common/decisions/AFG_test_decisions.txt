@@ -1,0 +1,91 @@
+AFG_test = {
+	AFG_test_1 = {
+
+		icon = generic_nationalism
+	
+		allowed = {
+			tag = afg
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = "tooltip_3"
+		}		
+
+		custom_cost_trigger = { always = no }
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	AFG_test_2 = {
+
+		icon = generic_nationalism
+	
+		allowed = {
+			tag = afg
+		}
+		
+		cost = 0
+
+		modifier = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			AFG = { add_to_variable = { test_var = 1 } }
+			custom_effect_tooltip = "tooltip_1"
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	AFG_test_3 = {
+
+		icon = generic_nationalism
+	
+		allowed = {
+			tag = afg
+		}
+		
+		cost = 0
+
+		modifier = {
+			factor = 0
+		}
+
+		complete_effect = {
+			AFG = { set_variable = { test_var = 0 } }
+			custom_effect_tooltip = "tooltip_2"
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+
+	AFG_test_4 = {
+
+		icon = generic_nationalism
+	
+		allowed = {
+			tag = afg
+		}
+		
+		cost = 0
+
+		complete_effect = {
+			AFG = { country_event = testevent.1 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+}
